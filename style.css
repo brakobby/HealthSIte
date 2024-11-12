@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 11px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(200, 200, 191);
+    transition: color 2s,transform 1s;
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: #6f300d;
+    transition: scale(1.2);
+}
+
+
+.nav a button{
+    background-color: #a0410e;
+    border: 0px;
+    border-radius: 10px;
+    padding: 3px 15px;
+    color: white;
+}
+.nav label{
+    color: #a0410e;
+    font-family: "CentSchbkCyrill BT";
+    font-weight: 700;
+    font-size: 15px;
+}
+.hero_page{
+    background-image: url("img/hero.jpg");
+    background-size: 100%;
+}
+.wlc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    width: 300px;
+    justify-content: center;
+    margin: 50px 20px;
+}
+.wlc h3{
+    font-size: 40px;
+    padding-bottom: 5px;
+    color: #6f300d;
+}
+.btn a button{
+    margin: 10px 50px;
+    padding: 5px;
+    width: 150px;
+    border: 0px;
+    border-radius: 15px;
+    background-color:#6f300d ;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 1s, transform;
+}
+.btn a button:hover{
+    transition: scale(1.2);
+}
+.gal h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #6f300d;
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.gal span{
+    width: 10px;
+    margin: 20px;
+    
+}
+.vid{
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.content{
+    position: relative;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 500px;
+    
+    margin-top: 10%;
+    padding-left:100px ;
+}
+.content h1{
+    color: #6f300d;
+    text-align: center;
+    margin-top: 10px;
+
+}
